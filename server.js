@@ -12,3 +12,5 @@ server.use("/user", userRouter);
 server.use("/car", carRouter);
 
 server.listen(1010);
+
+// The code may not work because .env is missing.
